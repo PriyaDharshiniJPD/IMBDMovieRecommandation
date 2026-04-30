@@ -7,6 +7,10 @@ from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import word_tokenize
 import contractions
+import nltk
+nltk.download('stopwords')
+nltk.download('wordnet')
+nltk.download('punkt_tab')
 
 st.set_page_config(page_title="🎬 Movie Recommandation System", layout="wide")
 
